@@ -7,8 +7,8 @@ from BrandrdXMusic import app
 
 def first_page(_):
     controll_button = [
-        InlineKeyboardButton(text="๏ ᴍᴇɴᴜ ๏", callback_data=f"settingsback_helper"),
-        InlineKeyboardButton(text="๏ ɴᴇxᴛ ๏", callback_data=f"dilXaditi"),
+        InlineKeyboardButton(text="𝐌ᴇɴᴜ", callback_data=f"settingsback_helper"),
+        InlineKeyboardButton(text="𝐍ᴇxᴛ", callback_data=f"dilXaditi"),
     ]
     first_page_menu = InlineKeyboardMarkup(
         [
@@ -63,7 +63,7 @@ def first_page(_):
 
 def second_page(_):
     controll_button = [
-        InlineKeyboardButton(text="๏ ʙᴀᴄᴋ ๏", callback_data=f"settings_back_helper")
+        InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data=f"settings_back_helper")
     ]
     second_page_menu = InlineKeyboardMarkup(
         [
